@@ -147,3 +147,8 @@ iframe{
     justify-content: center;
     margin: 40px 0;
 }
+
+.tweet-center blockquote.twitter-tweet {
+    max-width: 100%;
+    width: 500px;
+}
