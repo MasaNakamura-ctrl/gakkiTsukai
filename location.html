@@ -11,8 +11,13 @@
     </head>
     <body>
         <header class="page-header wrapper">
+            <button class="hamburger" id="js-hamburger" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <h1><a href="index.html">ガッキ使い</a></h1>
-            <nav class="main-nav">
+            <nav class="main-nav" id="js-nav">
                 <li><a href="about.html">ガッキ使いとは</a></li>
                 <li><a href="corner.html">主な企画</a></li>
                 <li><a href="casts.html">ガッキ使い達</a></li>
@@ -43,5 +48,13 @@
                 </div>
             </div>
         </section>
+        <script>
+            const hamburger = document.getElementById('js-hamburger');
+            const nav = document.getElementById('js-nav');
+            hamburger.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+        </script>
     </body>
 </html>
