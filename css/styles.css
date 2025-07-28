@@ -152,3 +152,28 @@ iframe{
     max-width: 100%;
     width: 500px;
 }
+
+@media (max-width: 600px) {
+    body {
+    font-size: 90%;
+    padding: 0 2%;
+    }
+    h1 {
+    font-size: 1.5rem;
+    }
+    .wrapper {
+    padding: 0 2%;
+    }
+    .main-nav {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    }
+    .main-nav li {
+    margin: 8px 0;
+    }
+    .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    }
+}
