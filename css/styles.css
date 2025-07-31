@@ -132,8 +132,8 @@ iframe{
 .grid{
     display:grid;
     gap:26px;
-    grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
-    grid-auto-rows: minmax(240px, auto);
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: minmax(320px, auto);
     margin-top: 6%;
     margin-bottom: 50px;
 }
